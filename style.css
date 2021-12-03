@@ -1,7 +1,6 @@
-/************************************
-*             Général               *
-************************************/
-
+@media all and (max-width: 1280px) {
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+}
 :root {
     --blue: #0065FC;
     --light-blue: #DEEBFF;
@@ -30,7 +29,8 @@ h2 {
 ************************************/
 
 header {
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
     padding: 1px;
 }
 
@@ -44,8 +44,6 @@ header #logo img {
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     list-style-type: none;
     margin: 0;
 }
@@ -128,8 +126,6 @@ h1 {
 
 #filter {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: strech;
     align-items: center;
 }
 
@@ -138,7 +134,6 @@ h1 {
     border-radius: 30px;
     border: 2px solid var(--grey);
     display: flex;
-    justify-content: strech;
     align-items: center;
     font-weight: bold;
     cursor: pointer;
@@ -173,8 +168,6 @@ h1 {
 
 .info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
 }
 
 .info .fas.fa-info {
@@ -185,8 +178,8 @@ h1 {
     height: 25px;
     font-size: 16px;
     display: flex;
-    justify-content: left;
-    align-items: auto;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
 }
 
@@ -197,8 +190,7 @@ h1 {
 
 #hebergement {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 #hebergement section h2 {
@@ -308,8 +300,6 @@ h1 {
 
 #hebergement .populaire .hebergement-list a article {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
     flex-direction: row;
 }
 
@@ -320,7 +310,6 @@ h1 {
 
 #hebergement .populaire .hebergement-list a article .article-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -341,14 +330,12 @@ h1 {
     height: 600px;
 }
 
-.activite-list .column {
-    width: 23%;
+.activite-list .column 
+{width: 23%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 25px;
-}
+    border-radius: 25px; }
 
 .activite-list .column article img {
     width: 100%;
@@ -377,13 +364,11 @@ h1 {
 *              Footer               *
 ************************************/
 
-footer {
-    background-color: var(--grey);
+footer 
+{ background-color: var(--grey);
     margin: 0px -50px;
     padding: 50px;
-    display: flex;
-    justify-content: space-between;
-}
+    display: flex; }
 
 footer .column {
     width: 30%;
