@@ -773,4 +773,54 @@ main {
   .footer-blocs .footer-bloc {
     padding: 10px 20px;
   }
+  @media screen and (max-width: 550px) {
+    .most-popular-case-img img {
+      min-width: 125px;
+      max-width: 125px;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .research-box {
+      width: 80%;
+    }
+    
+    .filters ul li {
+      padding: 0 12px 0 0;
+      margin-left: 5px;
+    }
+  
+    .bloc {
+      border-radius: 0;
+    }
+  
+    .bloc-accomodation {
+      background: white;
+      margin-left: -15px;
+    }
+  
+    .bloc-most-popular {
+      margin-left: -12px;
+      padding-right: 24px;
+      width: 100%;
+    }
+    
+    .most-popular-case-img img {
+      min-width: 100px;
+      max-width: 100px;
+    }
+  
+  
+    .push-to-right {
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .most-popular-case-img img {
+      min-width: 80px;
+      max-width: 80px;
+    }
 }
