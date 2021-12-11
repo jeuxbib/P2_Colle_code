@@ -543,7 +543,7 @@ main {
   margin-right: 20%;
 }
 
-                                /* Media Queries */
+/* Media Queries */
 
 
 @media screen and (max-width: 1440px) {
@@ -773,15 +773,7 @@ main {
   .footer-blocs .footer-bloc {
     padding: 10px 20px;
   }
-  @media screen and (max-width: 550px) {
-    .most-popular-case-img img {
-      min-width: 125px;
-      max-width: 125px;
-    }
-  }
-  
-  
-  
+
   @media screen and (max-width: 480px) {
     .research-box {
       width: 80%;
@@ -823,4 +815,5 @@ main {
       min-width: 80px;
       max-width: 80px;
     }
+  }
 }
